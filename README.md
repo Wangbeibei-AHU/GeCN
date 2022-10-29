@@ -1,9 +1,9 @@
 # GeCN Implementation
-This is a Tensorflow implementation of the TPAMI 2021 paper "GeCNs: Graph Elastic Convolutional Networks for Data Representation".
+This is a TensorFlow implementation of the TPAMI 2021 paper "GeCNs: Graph Elastic Convolutional Networks for Data Representation" for the task of (semi-supervised) classification task.
 
 ## Requirements
 - python>=3.6
-- tensorflow>=1.13.1
+- tensorflow-gpu>=1.13.1
 
 
 ## Examples
@@ -14,13 +14,11 @@ cd GeCN
 python train.py --dataset cora 
 ```
 
-## References
-
-[1] [Kipf & Welling, Semi-Supervised Classification with Graph Convolutional Networks, 2016](https://arxiv.org/abs/1609.02907)
+## Introduction
+In this repo, we provide GeCN's code with the Cora and Citeseer datasets as example. The graph convolution method used in this code is provided by Thomas N. Kipf, Max Welling, Semi-Supervised Classification with Graph Convolutional Networks (ICLR 2017).
 
 
 ## Cite
-
 Please cite our paper if you use this code in your own work:
 
 ```
